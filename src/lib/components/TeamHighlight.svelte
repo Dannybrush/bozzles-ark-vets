@@ -117,6 +117,8 @@
       justify-content: center;
       background-color: #a6e3ff;
     }
+    .test {} 
+
     
     .image-initial {
       font-size: 4rem;
