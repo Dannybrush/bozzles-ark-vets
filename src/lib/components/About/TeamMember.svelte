@@ -9,6 +9,7 @@
       bio = '' 
     } = $props();
     
+    
     let isExpanded = $state(false);
     
     function toggleBio() {

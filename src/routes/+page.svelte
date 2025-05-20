@@ -1,12 +1,12 @@
 <script>
     
 
-    import Hero from '$lib/components/Hero.svelte';
-    import Services from '$lib/components/Services.svelte';
-    import Testimonials from '$lib/components/Testimonials.svelte';
-    import CallToAction from '$lib/components/CallToAction.svelte';
-    import TeamHighlight from '$lib/components/TeamHighlight.svelte';
-    import EmergencyBanner from '$lib/components/EmergencyBanner.svelte';
+    import Hero from '$lib/components/Home/Hero.svelte';
+    import Services from '$lib/components/Home/Services.svelte';
+    import Testimonials from '$lib/components/Home/Testimonials.svelte';
+    import CallToAction from '$lib/components/Home/CallToAction.svelte';
+    import TeamHighlight from '$lib/components/Home/TeamHighlight.svelte';
+    import EmergencyBanner from '$lib/components/Home/EmergencyBanner.svelte';
   </script>
   
   <svelte:head>
