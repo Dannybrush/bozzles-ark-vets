@@ -6,28 +6,28 @@
       {
         name: "Sarah Johnson",
         pet: "Max (Labrador)",
-        image: "/images/testimonials/sarah-max.jpg",
+        image: "/lab.jpg",
         quote: "Dr. Bozzle and the team have been incredible with Max. They always take the time to explain everything and make us both feel comfortable.",
         rating: 5
       },
       {
-        name: "Michael Chen",
-        pet: "Whiskers (Cat)",
-        image: "/images/testimonials/michael-whiskers.jpg",
+        name: "Liberty James",
+        pet: "Daisy (Cat)",
+        image: "/lib.jpg",
         quote: "I never thought I'd find a vet that Whiskers would tolerate, but the team at Bozzles somehow made the experience stress-free!",
         rating: 5
       },
       {
         name: "Emma Rodriguez",
         pet: "Sunny (Parrot)",
-        image: "/images/testimonials/emma-sunny.jpg", 
+        image: "parrot.jpg", 
         quote: "Finding quality care for exotic pets can be challenging. Bozzles Ark Vets has exceptional knowledge about birds and provides the best care for Sunny.",
         rating: 5
       },
       {
         name: "David Thompson",
         pet: "Sheldon (Tortoise)",
-        image: "/images/testimonials/david-sheldon.jpg",
+        image: "tort.webp",
         quote: "The exotic pet specialists at Bozzles understand the unique needs of reptiles. Sheldon has been thriving under their care for years.",
         rating: 5
       }
@@ -91,6 +91,8 @@
                     <p class="author-name">{testimonial.name}</p>
                     <p class="pet-name">Owner of {testimonial.pet}</p>
                   </div>
+                    <img src={testimonial.image} alt={testimonial.pet} class="pet-image" />
+
                 </div>
               </div>
             {/if}
@@ -191,6 +193,7 @@
       display: flex;
       align-items: center;
       gap: 1rem;
+      justify-content: space-between;
     }
     
     .author-name {
@@ -260,6 +263,12 @@
     .dot.active {
       background-color: #3182ce;
       transform: scale(1.3);
+    }
+    .pet-image {
+      width: 350px;
+      height: 350px;
+      border-radius: 30%;
+      object-fit: cover;
     }
     
     /* Add the fade animation */

@@ -1,4 +1,6 @@
 <script>
+    
+
     import Hero from '$lib/components/Hero.svelte';
     import Services from '$lib/components/Services.svelte';
     import Testimonials from '$lib/components/Testimonials.svelte';
@@ -10,9 +12,12 @@
   <svelte:head>
     <title>Bozzles Ark Vets | Compassionate Care for All Animals</title>
     <meta name="description" content="Bozzles Ark Vets provides comprehensive veterinary care for cats, dogs, birds, reptiles, rabbits and small mammals in a warm, friendly environment.">
-  </svelte:head>
+    <meta property="og:image" content="logo.png">
   
+</svelte:head>
+
   <main>
+
     <!-- Emergency banner that's always visible -->
     <EmergencyBanner />
     

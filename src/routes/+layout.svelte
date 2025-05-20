@@ -2,6 +2,7 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import '$lib//styles/global.css';
+    import DevBanner from '$lib/components/DevBanner.svelte';
 </script>
 
 <svelte:head>
@@ -10,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </svelte:head>
 
+<DevBanner />
 <div class="app">
   <Header />
   
