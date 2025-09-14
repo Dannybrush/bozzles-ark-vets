@@ -3,7 +3,7 @@
     
     // Emergency contact info
     const emergencyPhone = "555-PET-911";
-    const normalHours = "8am - 6pm Mon-Fri, 9am - 4pm Sat";
+    const normalHours = "9am - 7pm Mon-Fri, 10am - 5pm Sat, Sun 10am - 2pm";
     
     // Check if it's currently outside normal hours
     let isAfterHours = false;
@@ -20,11 +20,11 @@
         // - Saturday after 4pm (day 6, hour >= 16)
         // - Weekday before 8am or after 6pm (hour < 8 || hour >= 18)
         
-        if (day === 0) {
+        if (day === 0 && (hour < 10 || hour >= 14)) {
           isAfterHours = true;
-        } else if (day === 6 && (hour < 9 || hour >= 16)) {
+        } else if (day === 6 && (hour < 10 || hour >= 17)) {
           isAfterHours = true;
-        } else if (day >= 1 && day <= 5 && (hour < 8 || hour >= 18)) {
+        } else if (day >= 1 && day <= 5 && (hour < 9 || hour >= 19)) {
           isAfterHours = true;
         } else {
           isAfterHours = false;
@@ -102,12 +102,12 @@
     .emergency-title {
       font-weight: bold;
       margin: 0;
-      font-size: 1rem;
+      font-size: 1rem; /* 0.875*/
     }
     
     .emergency-contact {
       margin: 0;
-      font-size: 1rem;
+      font-size: 1rem; /* 0.875*/
     }
     
     .emergency-contact a {
@@ -117,7 +117,7 @@
     }
     
     .hours-info {
-      font-size: 0.9rem;
+      font-size: 0.9rem; /* Was 0.75 */ 
       opacity: 0.9;
     }
     

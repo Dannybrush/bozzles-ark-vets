@@ -40,8 +40,8 @@
           <div class="footer-section">
             <h3 class="footer-title">Bozzles Ark Vets</h3>
             <address class="footer-address">
-              <p>123 Paws Lane</p>
-              <p>Petsville, PV1 2AB</p>
+              <p>39 Jersey Way</p>
+              <p>Barwell, LE9 8HR</p>
               <p class="footer-phone"><i class="icon-phone"></i> 01234 567890</p>
               <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.com</p>
             </address>
@@ -55,9 +55,9 @@
           <div class="footer-section">
             <h3 class="footer-title">Opening Hours</h3>
             <ul class="hours-list">
-              <li><span>Monday - Friday:</span> 8:00am - 7:00pm</li>
-              <li><span>Saturday:</span> 9:00am - 5:00pm</li>
-              <li><span>Sunday:</span> 10:00am - 4:00pm</li>
+              <li><span>Monday - Friday:</span> 9:00am - 7:00pm</li>
+              <li><span>Saturday:</span> 10:00am - 5:00pm</li>
+              <li><span>Sunday:</span> 10:00am - 2:00pm</li>
               <li class="emergency-hours"><span>Emergency Care:</span> 24/7</li>
             </ul>
             <a href="/contact" class="footer-link">Find Us <i class="icon-arrow-right"></i></a>
