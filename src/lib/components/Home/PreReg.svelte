@@ -37,6 +37,7 @@
       <div class="header-content">
         <h1>Pet Pre-Registration</h1>
         <p>Complete the form below to register your pet with Bozzles Ark Vets</p>
+        <p> 10% discount on first consultations, routine neutering and dental care booked within 3 months of opening when you pre-register!</p>
       </div>
     </div>
   </section>
