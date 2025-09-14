@@ -51,13 +51,17 @@
     .logo-container {
       width: 100%;
       max-width: 400px;
+      border-radius: 45% 45% 25% 25%;
+      
+      overflow: hidden;
     }
     
     .logo {
       width: 100%;
-      height: auto;
-      border-radius: 50%;
+      height: 100%;
+      object-fit: cover;
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    
     }
     
     .hero-text {
