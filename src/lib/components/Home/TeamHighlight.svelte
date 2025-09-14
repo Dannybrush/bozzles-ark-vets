@@ -4,19 +4,19 @@
       {
         name: "Dr. Jasmine Jade Broomhead",
         role: "Lead Veterinarian",
-        image: "JJB.jpg",
+        image: "placeholder-team-pic_small.jpg",
         specialties: "Small Animals, Surgery"
       },
       {
         name: "Dr. Sergio Rodriguez Valera",
         role: "Exotic Pet Specialist",
-        image: "Sergio_Rodriguez.webp",
+        image: "placeholder-team-pic_small.jpg",
         specialties: "Birds, Reptiles, Small Mammals"
       },
       {
-        name: "Emma Taylor",
+        name: "Chloe Pickering",
         role: "Head Veterinary Nurse",
-        image: "/images/team/nurse-taylor.jpg",
+        image: "placeholder-team-pic_small.jpg",
         specialties: "Emergency Care, Pet Nutrition"
       }
     ];
