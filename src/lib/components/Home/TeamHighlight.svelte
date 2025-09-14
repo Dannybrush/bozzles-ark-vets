@@ -2,19 +2,22 @@
     // Team members data
     const teamMembers = [
       {
-        name: "Dr. Jasmine Jade Broomhead, BVetMed MRCVS",
+        name: "Dr. Jasmine Jade Broomhead",
+        credential: "BVetMed MRCVS",
         role: "Lead Veterinarian",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Small Animals, Surgery"
       },
       {
-        name: "Dr. Sergio Rodriguez Valera, LV MRCVS GPCert (ExAP)",
+        name: "Dr. Sergio Rodriguez Valera",
+        credential: "LV MRCVS GPCert (ExAP)",        
         role: "Exotic Pet Specialist",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Birds, Reptiles, Small Mammals"
       },
       {
-        name: "Chloe Pickering, RVN",
+        name: "Chloe Pickering",
+        credential: "RVN",
         role: "Head Veterinary Nurse",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Emergency Care, Pet Nutrition"
@@ -32,15 +35,16 @@
       <div class="team-preview">
         {#each teamMembers as member, i}
           <div class="team-card">
-            <div class="member-image-container">
-              <div class="member-image-placeholder">
-                <!-- Placeholder for member image -->
+            <!--<div class="member-image-container">-->
+              <!--<div class="member-image-placeholder"> --> 
+                <!--Placeholder for member image -->
                 <!--<div class="image-initial">{member.name.charAt(0)}</div> --> 
-                <div class="profile-pic"> <img src={member.image} alt="Profile Picture"/> </div>
-              </div>
-            </div>
+                <!--<div class="profile-pic"> <img src={member.image} alt="Profile Picture"/> </div> 
+              </div>-->
+            <!--</div>--> 
             <div class="member-info">
               <h3>{member.name}</h3>
+              <h4>{member.credential}</h4>
               <p class="member-role">{member.role}</p>
               <p class="member-specialty">Specialties: {member.specialties}</p>
             </div>
@@ -137,6 +141,11 @@
     
     h3 {
       font-size: 1.25rem;
+      color: #2c5282;
+      margin-bottom: 0rem;
+    }
+     h4 {
+      font-size: 1rem;
       color: #2c5282;
       margin-bottom: 0.5rem;
     }
