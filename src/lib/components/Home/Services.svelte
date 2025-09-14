@@ -30,7 +30,7 @@
       },
         {
         title: "Diagnostic Imaging",
-        description: "Advanced facilities for CT, X-ray, and ultrasound diagnostics.",
+        description: "Advanced facilities for in-house Blood work, CT, X-ray, and ultrasound diagnostics.",
         icon:"🩸",
         link: "/services/Diagnostics"
       },
