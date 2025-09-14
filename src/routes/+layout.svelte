@@ -2,7 +2,7 @@
   import Header from '$lib/components/Layout/Header.svelte';
   import Footer from '$lib/components/Layout/Footer.svelte';
   import '$lib//styles/global.css';
-    import DevBanner from '$lib/components/Layout/DevBanner.svelte';
+  //import DevBanner from '$lib/components/Layout/DevBanner.svelte';
   import Popup from '$lib/components/Layout/Popup.svelte';
 </script>
 
@@ -14,7 +14,7 @@
 
 <Popup />
 
-<DevBanner />
+<!--<DevBanner />--> 
 <div class="app">
   <Header />
   

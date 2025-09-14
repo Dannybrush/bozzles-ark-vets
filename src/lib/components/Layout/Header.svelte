@@ -44,7 +44,7 @@
           <ul class="nav-list">
             <li><a href="/" class="nav-link">Home</a></li>
             <li><a href="/services" class="nav-link">Services</a></li>
-            <li><a href="/about-us" class="nav-link">About Us</a></li>
+            <!--<li><a href="/about-us" class="nav-link">About Us</a></li>-->
             <li><a href="/new-clients" class="nav-link">New Clients</a></li>
             <li><a href="/resources" class="nav-link">Pet Resources</a></li>
             <li><a href="/contact" class="nav-link">Contact</a></li>
