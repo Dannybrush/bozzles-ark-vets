@@ -29,19 +29,31 @@
         icon: "🦜",
         link: "/services/exotic"
       },
+      
+        {
+        title: "Parasite Prevention",
+        description: "Effective treatments to keep parasites at bay.",
+        icon: "🐛",
+        link: "/services/parasite-prevention"
+      },
+       {
+        title: "Dental Care",
+        description: "Complete dental services to maintain your pet's oral health.",
+        icon: "🦷",
+        link: "/services/dental"
+      },
       {
         title: "Surgery",
         description: "From routine procedures to complex operations with expert veterinary care.",
         icon: "⚕️",
         link: "/services/surgery"
       },
-      {
-        title: "Dental Care",
-        description: "Complete dental services to maintain your pet's oral health.",
-        icon: "🦷",
-        link: "/services/dental"
+        {
+        title: "Early Drop-off and Late Pick-up",
+        description: "Convenient options for busy pet owners.",
+        icon: "⌚",
+        link: "/services/flexible-hours"
       },
-      
         {
         title: "Diagnostic Imaging",
         description: "Advanced facilities for CT Scans, in-house Blood work, X-ray, and ultrasound diagnostics.",
@@ -65,18 +77,6 @@
         description: "Compassionate support and services during your pet's final moments.",
         icon: "🪦",
         link: "/services/eol"
-      },
-        {
-        title: "Parasite Prevention",
-        description: "Effective treatments to keep parasites at bay.",
-        icon: "🐛",
-        link: "/services/parasite-prevention"
-      },
-        {
-        title: "Early Drop-off and Late Pick-up",
-        description: "Convenient options for busy pet owners.",
-        icon: "⌚",
-        link: "/services/flexible-hours"
       }
     ];
   </script>
