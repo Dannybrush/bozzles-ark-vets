@@ -30,7 +30,7 @@
       },
         {
         title: "Diagnostic Imaging",
-        description: "Advanced facilities for in-house Blood work, CT, X-ray, and ultrasound diagnostics.",
+        description: "Advanced facilities for CT Scans, in-house Blood work, X-ray, and ultrasound diagnostics.",
         icon:"🩸",
         link: "/services/Diagnostics"
       },
@@ -51,6 +51,34 @@
         description: "Compassionate support and services during your pet's final moments.",
         icon: "🪦",
         link: "/services/eol"
+      }
+      ,
+        {
+        title: "Vaccinations",
+        description: "Protective vaccines to safeguard your pet's health.",
+        icon: "💉",
+        link: "/services/vaccinations"
+      }
+      ,
+        {
+        title: "Parasite Prevention",
+        description: "Effective treatments to keep parasites at bay.",
+        icon: "🐛",
+        link: "/services/parasite-prevention"
+      }
+      ,
+        {
+        title: "Sick Pet Consultations",
+        description: "Expert diagnosis and treatment for ill pets.",
+        icon: "💊",
+        link: "/services/parasite-prevention"
+      }
+      ,
+        {
+        title: "Early Drop-off and Late Pick-up",
+        description: "Convenient options for busy pet owners.",
+        icon: "⌚",
+        link: "/services/flexible-hours"
       }
     ];
   </script>
