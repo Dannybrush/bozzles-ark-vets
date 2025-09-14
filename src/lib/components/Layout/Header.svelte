@@ -4,7 +4,7 @@
     let scrollY;
     let isMenuOpen = false;
     let isScrolled = false;
-    let miniLogo = '/logo.jpg'; // A smaller version of the logo
+    let miniLogo = '/new-bw-logo.jpg'; // A smaller version of the logo
     
     // Toggle mobile menu
     function toggleMenu() {
