@@ -3,6 +3,7 @@
   import Footer from '$lib/components/Layout/Footer.svelte';
   import '$lib//styles/global.css';
     import DevBanner from '$lib/components/Layout/DevBanner.svelte';
+  import Popup from '$lib/components/Layout/Popup.svelte';
 </script>
 
 <svelte:head>
@@ -10,6 +11,8 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </svelte:head>
+
+<Popup />
 
 <DevBanner />
 <div class="app">
