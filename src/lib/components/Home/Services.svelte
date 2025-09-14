@@ -17,16 +17,17 @@
         icon: "💉",
         link: "/services/vaccinations"
       },
-        {
-        title: "Sick Pet Consultations",
-        description: "Expert diagnosis and treatment for ill pets.",
-        icon: "💊",
-        link: "/services/parasite-prevention"
-      },
+       
         {
         title: "Parasite Prevention",
         description: "Effective treatments to keep parasites at bay.",
         icon: "🐛",
+        link: "/services/parasite-prevention"
+      },
+       {
+        title: "Sick Pet Consultations",
+        description: "Expert diagnosis and treatment for ill pets.",
+        icon: "💊",
         link: "/services/parasite-prevention"
       },
        {
