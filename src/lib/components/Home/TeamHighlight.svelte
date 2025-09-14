@@ -2,19 +2,19 @@
     // Team members data
     const teamMembers = [
       {
-        name: "Dr. Jasmine Jade Broomhead",
+        name: "Dr. Jasmine Jade Broomhead, BVetMed MRCVS",
         role: "Lead Veterinarian",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Small Animals, Surgery"
       },
       {
-        name: "Dr. Sergio Rodriguez Valera",
+        name: "Dr. Sergio Rodriguez Valera, LV MRCVS GPCert (ExAP)",
         role: "Exotic Pet Specialist",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Birds, Reptiles, Small Mammals"
       },
       {
-        name: "Chloe Pickering",
+        name: "Chloe Pickering, RVN",
         role: "Head Veterinary Nurse",
         image: "placeholder-team-pic_small.jpg",
         specialties: "Emergency Care, Pet Nutrition"
