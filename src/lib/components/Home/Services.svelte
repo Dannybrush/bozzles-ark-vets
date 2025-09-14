@@ -39,6 +39,18 @@
         description: "24/7 emergency services for urgent veterinary needs.",
         icon: "🚑",
         link: "/services/emergency"
+      },
+        {
+        title: "Hospitalisation",
+        description: "Hospital care with round-the-clock monitoring and treatment.",
+        icon:"🏥",
+        link: "/services/Hospitalisation"
+      },
+        {
+        title: "End of Life Care",
+        description: "Compassionate support and services during your pet's final moments.",
+        icon: "🪦",
+        link: "/services/eol"
       }
     ];
   </script>
