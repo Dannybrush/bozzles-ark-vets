@@ -126,7 +126,7 @@
     .service-icon {
       font-size: 2.5rem;
       margin-bottom: 1rem;
-      background-color: #ebf8ff;
+      background: linear-gradient(135deg, #a6e3ff 0%, #5FC3BF 100%); /* #ebf8ff;*/
       width: 70px;
       height: 70px;
       display: flex;
