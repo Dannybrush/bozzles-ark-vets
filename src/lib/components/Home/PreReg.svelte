@@ -32,7 +32,7 @@
 
 <main class="preregistration-page">
   <!-- Header -->
-  <section class="header-section">
+  <section id="PreRegistration" class="header-section">
     <div class="container">
       <div class="header-content">
         <h1>Pet Pre-Registration</h1>

@@ -119,7 +119,7 @@
         <button onclick={closePopup} class="btn btn-outline">
           Maybe Later
         </button>
-        <a href="/preregistration" class="btn btn-primary">
+        <a href= #PreRegistration class="btn btn-primary" onclick={closePopup}>
           Pre-Register Now
         </a>
       </div>
