@@ -53,7 +53,7 @@
       </div>
       
       <div class="team-cta">
-        <a href="/meet-the-team" class="btn-team">Meet Our Entire Team</a>
+        <a href="/" class="btn-team">Meet Our Entire Team</a>
       </div>
     </div>
   </section>
