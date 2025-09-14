@@ -42,7 +42,7 @@
             <address class="footer-address">
               <p>39 Jersey Way</p>
               <p>Barwell, LE9 8HR</p>
-              <p class="footer-phone"><i class="icon-phone"></i> 01234 567890</p>
+              <p class="footer-phone"><i class="icon-phone"></i> </p>
               <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.com</p>
             </address>
             <div class="cert-logos">
