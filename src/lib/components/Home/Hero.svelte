@@ -1,7 +1,7 @@
 <script>
     import { fade, fly } from 'svelte/transition';
     
-    let logo = '/logo.jpg'; // Path to the logo you shared
+    let logo = 'new-logo.jpg'//'/logo.jpg'; // Path to the logo you shared
   </script>
   
   <section class="hero">
@@ -15,7 +15,7 @@
         <p>Compassionate care for all creatures great and small</p>
         
         <div class="hero-buttons">
-          <a href="/appointments" class="btn btn-primary">Book Appointment</a>
+          <a href="/appointments" class="btn btn-primary"> Pre-Register Now</a>
           <a href="/services" class="btn btn-secondary">Our Services</a>
         </div>
       </div>
@@ -31,7 +31,7 @@
   <style>
     .hero {
       position: relative;
-      background: linear-gradient(135deg, #a6e3ff 0%, #68c5ff 100%);
+      background: linear-gradient(135deg, #a6e3ff 0%, #5FC3BF 100%); /* Soft blue gradient #68c5ff */
       padding: 2rem 1rem 6rem;
       text-align: center;
       overflow: hidden;

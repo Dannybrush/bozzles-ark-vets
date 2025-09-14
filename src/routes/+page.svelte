@@ -31,7 +31,7 @@
     <TeamHighlight />
     
     <!-- Client testimonials -->
-    <Testimonials />
+    <!--<Testimonials /> --> <!-- Temporarily removed for redesign -->
     
     <!-- Call to action for new clients -->
     <CallToAction />
