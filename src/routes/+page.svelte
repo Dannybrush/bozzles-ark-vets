@@ -7,7 +7,8 @@
     import CallToAction from '$lib/components/Home/CallToAction.svelte';
     import TeamHighlight from '$lib/components/Home/TeamHighlight.svelte';
     import EmergencyBanner from '$lib/components/Home/EmergencyBanner.svelte';
-  </script>
+    import PreReg from '$lib/components/Home/PreReg.svelte';
+ </script>
   
   <svelte:head>
     <title>Bozzles Ark Vets | Compassionate Care for All Animals</title>
@@ -27,6 +28,9 @@
     <!-- Main services overview -->
     <Services />
     
+    <!-- Pre-registration form -->
+    <PreReg />
+
     <!-- Team introduction -->
     <TeamHighlight />
     
