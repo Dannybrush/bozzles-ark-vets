@@ -36,7 +36,7 @@
     <div class="container">
       <div class="header-content">
         <h1>Pet Pre-Registration</h1>
-        <p>Complete the form below to register your pet with Bozzles Ark Vets</p>
+        <h2><p>Complete the form below to register your pet with Bozzles Ark Vets</p></h2>
         <p> 10% discount on first consultations, routine neutering and dental care booked within 3 months of opening when you pre-register!</p>
       </div>
     </div>
@@ -216,6 +216,9 @@
     
     .header-content h1 {
       font-size: 2rem;
+    }
+        .header-content h2 {
+      font-size: 1.25rem;
     }
     
     .header-content p {
