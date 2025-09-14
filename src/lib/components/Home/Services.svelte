@@ -27,6 +27,18 @@
         description: "Specialized care for birds, reptiles, and small mammals.",
         icon: "🦜",
         link: "/services/exotic"
+      },
+        {
+        title: "Diagnostic Imaging",
+        description: "Advanced facilities for CT, X-ray, and ultrasound diagnostics.",
+        icon:"🩸",
+        link: "/services/Diagnostics"
+      },
+        {
+        title: "Emergency Care",
+        description: "24/7 emergency services for urgent veterinary needs.",
+        icon: "🚑",
+        link: "/services/emergency"
       }
     ];
   </script>
