@@ -1,6 +1,6 @@
 <script>
-    export let version = "v0.0.31";
-    export let lastUpdated = "2025-05-19 - 23:58";
+    export let version = "v0.1.00";
+    export let lastUpdated = "2025-09-14 - 10:56"; //"2025-05-19 - 23:58";
   </script>
   
   <div class="dev-banner">

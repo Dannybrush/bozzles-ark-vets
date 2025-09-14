@@ -102,12 +102,12 @@
     .emergency-title {
       font-weight: bold;
       margin: 0;
-      font-size: 0.875rem;
+      font-size: 1rem;
     }
     
     .emergency-contact {
       margin: 0;
-      font-size: 0.875rem;
+      font-size: 1rem;
     }
     
     .emergency-contact a {
@@ -117,7 +117,7 @@
     }
     
     .hours-info {
-      font-size: 0.75rem;
+      font-size: 0.9rem;
       opacity: 0.9;
     }
     
