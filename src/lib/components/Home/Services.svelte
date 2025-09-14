@@ -82,7 +82,7 @@
     ];
   </script>
   
-  <section id="Services "class="services">
+  <section id="Services" class="services">
     <div class="container">
       <div class="section-header">
         <h2>Our Services</h2>
