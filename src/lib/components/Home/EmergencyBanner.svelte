@@ -3,7 +3,7 @@
     
     // Emergency contact info
     const emergencyPhone = "555-PET-911";
-    const normalHours = "9am - 7pm Mon-Fri, 10am - 5pm Sat, Sun 10am - 2pm";
+    const normalHours = "Mon-Fri 9am - 7pm, Sat 10am - 5pm, Sun 10am - 2pm";
     
     // Check if it's currently outside normal hours
     let isAfterHours = false;
