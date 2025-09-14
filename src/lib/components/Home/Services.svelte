@@ -23,18 +23,17 @@
         icon: "💊",
         link: "/services/parasite-prevention"
       },
-      {
-        title: "Exotic Pet Care",
-        description: "Specialized care for birds, reptiles, and small mammals.",
-        icon: "🦜",
-        link: "/services/exotic"
-      },
-      
         {
         title: "Parasite Prevention",
         description: "Effective treatments to keep parasites at bay.",
         icon: "🐛",
         link: "/services/parasite-prevention"
+      },
+       {
+        title: "Exotic Pet Care",
+        description: "Specialized care for birds, reptiles, and small mammals.",
+        icon: "🦜",
+        link: "/services/exotic"
       },
        {
         title: "Dental Care",
@@ -48,17 +47,18 @@
         icon: "⚕️",
         link: "/services/surgery"
       },
-        {
-        title: "Early Drop-off and Late Pick-up",
-        description: "Convenient options for busy pet owners.",
-        icon: "⌚",
-        link: "/services/flexible-hours"
-      },
+        
         {
         title: "Diagnostic Imaging",
         description: "Advanced facilities for CT Scans, in-house Blood work, X-ray, and ultrasound diagnostics.",
         icon:"🩸",
         link: "/services/Diagnostics"
+      },
+      {
+        title: "Early Drop-off and Late Pick-up",
+        description: "Convenient options for busy pet owners.",
+        icon: "⌚",
+        link: "/services/flexible-hours"
       },
         {
         title: "Emergency Care",
