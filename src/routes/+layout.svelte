@@ -4,6 +4,7 @@
   import '$lib//styles/global.css';
   //import DevBanner from '$lib/components/Layout/DevBanner.svelte';
   import Popup from '$lib/components/Layout/Popup.svelte';
+    import OpeningSoonBanner from '$lib/components/Layout/OpeningSoonBanner.svelte';
 </script>
 
 <svelte:head>
@@ -13,6 +14,7 @@
 </svelte:head>
 
 <Popup />
+<OpeningSoonBanner />
 
 <!--<DevBanner />--> 
 <div class="app">
