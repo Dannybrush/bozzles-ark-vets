@@ -509,7 +509,7 @@
     0% { transform: scale(1) rotate(0deg); }
     100% { transform: scale(1.2) rotate(180deg); }
   }
-  
+  /*
   @keyframes explode {
     0%, 100% { 
       transform: scale(1) rotate(0deg);
@@ -528,7 +528,7 @@
       filter: hue-rotate(270deg);
     }
   }
-  
+  */
   .animals {
     display: flex;
     justify-content: center;
