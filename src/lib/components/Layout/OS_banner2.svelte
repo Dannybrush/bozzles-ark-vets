@@ -509,26 +509,18 @@
     0% { transform: scale(1) rotate(0deg); }
     100% { transform: scale(1.2) rotate(180deg); }
   }
-  /*
+  
   @keyframes explode {
     0%, 100% { 
       transform: scale(1) rotate(0deg);
       filter: hue-rotate(0deg);
     }
-    25% { 
-      transform: scale(1.3) rotate(90deg);
-      filter: hue-rotate(90deg);
-    }
     50% { 
-      transform: scale(1.1) rotate(180deg);
-      filter: hue-rotate(180deg);
-    }
-    75% { 
-      transform: scale(1.4) rotate(270deg);
-      filter: hue-rotate(270deg);
-    }
+      transform: scale(1.5) rotate(360deg);
+      filter: hue-rotate(45deg);
+    }   
   }
-  */
+  
   .animals {
     display: flex;
     justify-content: center;
