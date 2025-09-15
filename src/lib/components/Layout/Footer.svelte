@@ -117,7 +117,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="footer-bottom-content">
-          <p class="copyright">© {currentYear} Bozzles Ark Vets. All rights reserved.</p>
+          <p class="copyright">© {currentYear} Bozzles Ark Vets. All rights reserved. Company Number #16434819</p>
           <ul class="legal-links">
             <li><a href="/privacy-policy" class="legal-link">Privacy Policy</a></li>
             <li><a href="/terms-of-service" class="legal-link">Terms of Service</a></li>
