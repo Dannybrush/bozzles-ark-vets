@@ -5,6 +5,7 @@
   //import DevBanner from '$lib/components/Layout/DevBanner.svelte';
   import Popup from '$lib/components/Layout/Popup.svelte';
     import OpeningSoonBanner from '$lib/components/Layout/OpeningSoonBanner.svelte';
+    import OsBanner2 from '$lib/components/Layout/OS_banner2.svelte';
 </script>
 
 <svelte:head>
@@ -14,7 +15,8 @@
 </svelte:head>
 
 <Popup />
-<OpeningSoonBanner />
+<!--<OpeningSoonBanner /> --> 
+<OsBanner2 />
 
 <!--<DevBanner />--> 
 <div class="app">
