@@ -43,7 +43,7 @@
               <p>39 Jersey Way</p>
               <p>Barwell, LE9 8HR</p>
               <p class="footer-phone"><i class="icon-phone"></i> </p>
-              <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.com</p>
+              <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.co.uk</p>
             </address>
             <div class="cert-logos">
               <img src="/rcvs.jpg" alt="RCVS Accredited" class="cert-logo" />
