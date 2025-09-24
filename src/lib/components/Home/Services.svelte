@@ -75,7 +75,7 @@
         {
         title: "End of Life Care",
         description: "Compassionate support and services during your pet's final moments.",
-        icon: "🪦",
+        icon: "🕊️", 
         link: "/services/eol"
       }
     ];
