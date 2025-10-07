@@ -42,12 +42,12 @@
             <address class="footer-address">
               <p>39 Jersey Way</p>
               <p>Barwell, LE9 8HR</p>
-              <p class="footer-phone"><i class="icon-phone"></i> </p>
+              <p class="footer-phone"><i class="icon-phone"></i> 01455 710 796</p>
               <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.co.uk</p>
             </address>
             <div class="cert-logos">
               <img src="/rcvs.jpg" alt="RCVS Accredited" class="cert-logo" />
-              <img src="/cfc.jpg" alt="Cat Friendly Clinic" class="cert-logo" />
+              <!--<img src="/cfc.jpg" alt="Cat Friendly Clinic" class="cert-logo" /> -->
             </div>
           </div>
           
@@ -83,13 +83,14 @@
             <form class="newsletter-form" on:submit={handleSubscribe}>
               <div class="form-group">
                 <input 
+                  disabled={true}   
                   type="email" 
-                  placeholder="Your email" 
+                  placeholder="Coming Soon!" 
                   class="newsletter-input"
                   bind:value={email}
                   required
                 />
-                <button type="submit" class="newsletter-button">Subscribe</button>
+                <button disabled type="submit" class="newsletter-button">Subscribe</button>
               </div>
               {#if subscribeStatus}
                 <p class="subscribe-message">{subscribeStatus}</p>
@@ -264,15 +265,18 @@
     .newsletter-text {
       margin-bottom: 1rem;
       line-height: 1.6;
+
     }
     
     .newsletter-form {
       margin-bottom: 1.5rem;
+      
     }
     
     .form-group {
       display: flex;
       gap: 0.5rem;
+      color: white;
     }
     
     .newsletter-input {
@@ -281,6 +285,7 @@
       border: none;
       border-radius: 4px;
       font-size: 0.875rem;
+      color:white
     }
     
     .newsletter-button {
@@ -292,6 +297,7 @@
       cursor: pointer;
       font-weight: 600;
       transition: background-color 0.2s ease;
+      
     }
     
     .newsletter-button:hover {
