@@ -13,6 +13,7 @@ export interface TeamMember {
   };
     category?: string;
     qualifications?: string;
+    credentials?: string;
     specialties?: string[];
     personalNote?: string;
     yearsExperience?: number;
@@ -48,4 +49,3 @@ export const TeamMembers: TeamMember[] = [
     image: "/images/team/emily.jpg"
   }
 ];
-
