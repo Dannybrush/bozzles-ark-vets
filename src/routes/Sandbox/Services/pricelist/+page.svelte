@@ -8,10 +8,10 @@
       title: "Consultations",
       icon: "🩺",
       items: [
-        { name: "Standard Consultation", price: "£45", duration: "20 mins", note: "" },
-        { name: "Extended Consultation", price: "£65", duration: "40 mins", note: "" },
-        { name: "Follow-up Consultation", price: "£30", duration: "15 mins", note: "Within 2 weeks" },
-        { name: "Emergency Consultation", price: "£95", duration: "30 mins", note: "Out of hours" }
+        { name: "Standard Consultation", price: "£50", duration: "20 mins", note: "Mon-Fri : 09:00 - 18:30, Sat : 10:00 - 16:30" },
+        { name: "Follow-up Consultation", price: "£40", duration: "20 mins", note: "" },
+        { name: "Extended Consultation", price: "£75", duration: "40 mins", note: "" },
+        { name: "Emergency Consultation", price: "£100", duration: "30 mins", note: "Normal Business Hours" },
       ]
     },
     vaccinations: {
@@ -126,7 +126,18 @@
         { name: "Cremation (Individual)", price: "From £145", duration: "", note: "Ashes returned" },
         { name: "Cremation (Communal)", price: "From £65", duration: "", note: "Ashes not returned" }
       ]
+    },
+    outofhours: {
+      title: "Out of Hours Services",
+      icon: "🌙",
+      items: [
+        { name: "Emergency Consultation", price: "£120", duration: "30 mins", note: "" },
+        { name: "Emergency Surgery", price: "From £300", duration: "", note: "Price varies by procedure" },
+        { name: "After Hours Hospitalisation", price: "£120", duration: "Per night", note: "" },
+        { name: "Emergency Consultation", price: "£100", duration: "30 mins", note: "Out of hours" }
+      ]
     }
+
   };
 
   // State using Svelte 5 runes

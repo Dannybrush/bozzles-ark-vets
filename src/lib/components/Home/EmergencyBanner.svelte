@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
     
     // Emergency contact info
-    const emergencyPhone = "  ";
+    const emergencyPhone = "01455 710 796";
     const normalHours = "Mon-Fri 9am - 7pm, Sat 10am - 5pm, Sun 10am - 2pm";
     
     // Check if it's currently outside normal hours
