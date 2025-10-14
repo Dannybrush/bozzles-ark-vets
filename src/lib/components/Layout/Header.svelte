@@ -43,10 +43,12 @@
         <nav class="main-nav" class:active={isMenuOpen}>
           <ul class="nav-list">
             <li><a href="/" class="nav-link">Home</a></li>
-            <li><a href="/services" class="nav-link">Services</a></li>
-            <!--<li><a href="/about-us" class="nav-link">About Us</a></li>-->
+            <li><a href="/Services" class="nav-link">Services</a></li>
+            <li><a href="/bozzle-plans" class="nav-link">Bozzle Health Plans</a></li>
+
+            <!--<li><a href="/about-us" class="nav-link">About Us</a></li>
             <li><a href="/new-clients" class="nav-link">New Clients</a></li>
-            <li><a href="/resources" class="nav-link">Pet Resources</a></li>
+            <li><a href="/resources" class="nav-link">Pet Resources</a></li> --> 
             <li><a href="/contact" class="nav-link">Contact</a></li>
           </ul>
         </nav>
