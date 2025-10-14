@@ -191,7 +191,7 @@
       cat: true,
       rabbit: true,
       ferret: true,
-      birds: 'Suprelorin implant',
+      birds: '10% off Suprelorin implant',
       reptile: true,
       exoticMammal: true
     },

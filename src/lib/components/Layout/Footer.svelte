@@ -109,6 +109,9 @@
               <a href="https://youtube.com/bozzlesarkvets" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
                 <i class="icon-youtube"></i>
               </a>
+             <a href="https://www.bozzlesarkvets.co.uk/meet-the-developer" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Daniel Broomhead — Web Developer"><img src="/DB-Monogram.png" alt="Daniel Broomhead Logo" class="dev-logo">
+</a>
+
             </div>
           </div>
         </div>
