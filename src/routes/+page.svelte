@@ -1,6 +1,4 @@
 <script>
-    
-
     import Hero from '$lib/components/Home/Hero.svelte';
     import Services from '$lib/components/Home/Services.svelte';
     import Testimonials from '$lib/components/Home/Testimonials.svelte';
@@ -12,7 +10,7 @@
   
   <svelte:head>
     <title>Bozzles Ark Vets | Compassionate Care for All Animals</title>
-    <meta name="description" content="Bozzles Ark Vets provides comprehensive veterinary care for cats, dogs, birds, reptiles, rabbits and small mammals in a warm, friendly environment.">
+    <meta name="description" content="Bozzles Ark Vets provides comprehensive veterinary care for cats, dogs, birds, reptiles, rabbits and small mammals.">
     <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/new-logo.jpg" />
 </svelte:head>
 
@@ -20,22 +18,16 @@
 
     <!-- Emergency banner that's always visible -->
     <EmergencyBanner />
-    
     <!-- Hero section with appointment booking -->
     <Hero />
-    
     <!-- Main services overview -->
     <Services />
-    
     <!-- Pre-registration form -->
     <PreReg />
-
     <!-- Team introduction -->
     <TeamHighlight />
-    
     <!-- Client testimonials -->
     <!--<Testimonials /> --> <!-- Temporarily removed for redesign -->
-    
     <!-- Call to action for new clients -->
     <CallToAction />
   </main>
