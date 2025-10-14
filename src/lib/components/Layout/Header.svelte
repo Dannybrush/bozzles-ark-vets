@@ -50,6 +50,7 @@
             <li><a href="/new-clients" class="nav-link">New Clients</a></li>
             <li><a href="/resources" class="nav-link">Pet Resources</a></li> --> 
             <li><a href="/contact" class="nav-link">Contact</a></li>
+            <li><a href="/pre-registration" class="nav-link">Pre-Register! </a></li>
           </ul>
         </nav>
         
