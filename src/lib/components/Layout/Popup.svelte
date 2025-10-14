@@ -94,8 +94,8 @@
       
       <div class="popup-body">
         <p id="popup-description">
-          Bozzles Ark Vets is excited to announce that we'll be opening our doors in 
-          <strong>October 2025</strong>. We can't wait to provide compassionate care 
+          Bozzles Ark Vets is excited to announce that we'll be opening our doors on
+          <strong>20th October 2025</strong>. We can't wait to provide compassionate care 
           for all creatures great and small in the Barwell community.
         </p>
         

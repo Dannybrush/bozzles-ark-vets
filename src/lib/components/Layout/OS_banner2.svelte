@@ -50,7 +50,7 @@
         <div class="announcement-badge">
           <div class="countdown-wrapper">
             <span class="sparkle explosive">🎉</span>
-            <span class="announcement-text">OPENING OCTOBER 2025</span>
+            <span class="announcement-text">OPENING 20th OCTOBER 2025</span>
             <span class="sparkle explosive">🎉</span>
           </div>
           <div class="sub-announcement">Get Ready for Something Special!</div>
