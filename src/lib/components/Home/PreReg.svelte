@@ -25,11 +25,6 @@
   });
 </script>
 
-<svelte:head>
-  <title>Pre-registration - Bozzles Ark Vets</title>
-  <meta name="description" content="Register your pet with Bozzles Ark Vets. Complete our simple pre-registration form to get started with compassionate veterinary care." />
-</svelte:head>
-
 <main class="preregistration-page">
   <!-- Header -->
   <section id="PreRegistration" class="header-section">
