@@ -24,7 +24,7 @@
       <div class="breadcrumb" in:fade={{ duration: 400 }}>
         <a href="/">Home</a>
         <span>/</span>
-        <a href="/services">Services</a>
+        <a href="/Services">Services</a>
         <span>/</span>
         <span>{service.title}</span>
       </div>

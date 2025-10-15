@@ -1,7 +1,7 @@
 <script>
   import { scale } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
-  import { getAllServices } from '$lib/data/services';
+  import { getAllServices } from '../../archive/jsservices';
   
   // Get all services from the data store
   const services = getAllServices().map(service => ({

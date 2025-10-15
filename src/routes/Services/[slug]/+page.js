@@ -1,5 +1,5 @@
 // src/routes/services/[slug]/+page.js
-import { getServiceBySlug, getAllServices } from '$lib/data/services.js';
+import { getServiceBySlug, getAllServices } from '$lib/data/services';
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
