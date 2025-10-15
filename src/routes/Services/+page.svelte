@@ -8,7 +8,7 @@
     title: service.title,
     description: service.shortDescription,
     icon: service.icon,
-    link: `Services/${service.slug}`
+    link: `services/${service.slug}`
   }));
 </script>
 
