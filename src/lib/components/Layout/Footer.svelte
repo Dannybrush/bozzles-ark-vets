@@ -103,11 +103,14 @@
               <a href="https://instagram.com/bozzlesarkvets" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
                 <i class="icon-instagram"></i>
               </a>
-              <a href="https://twitter.com/bozzlesarkvets" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
                 <i class="icon-twitter"></i>
               </a>
-              <a href="https://youtube.com/bozzlesarkvets" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+              <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
                 <i class="icon-youtube"></i>
+              </a>
+                           <a href="https://Linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                <i class="icon-linkedin"></i>
               </a>
              <a href="https://www.bozzlesarkvets.co.uk/meet-the-developer" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Daniel Broomhead — Web Developer"><img src="/DB-Monogram.png" alt="Daniel Broomhead Logo" class="dev-logo">
 </a>
