@@ -6,6 +6,13 @@
   import Popup from '$lib/components/Layout/Popup.svelte';
     import OpeningSoonBanner from '$lib/components/Layout/OpeningSoonBanner.svelte';
     import OsBanner2 from '$lib/components/Layout/OS_banner2.svelte';
+    import CookieBanner from '$lib/components/CookieBanner.svelte';  
+     import { cookiePreferences} from '$lib/stores/cookieStore'; 
+    import { onMount } from 'svelte';
+
+     onMount(() => {
+       cookiePreferences.load() } );
+
 </script>
 
 <svelte:head>
@@ -18,6 +25,8 @@
 <!--<OpeningSoonBanner /> --> 
 <OsBanner2 />
 
+
+
 <!--<DevBanner />--> 
 <div class="app">
   <Header />
@@ -28,7 +37,7 @@
   
   <Footer />
 </div>
-
+<CookieBanner />
 <style>
   .app {
     display: flex;

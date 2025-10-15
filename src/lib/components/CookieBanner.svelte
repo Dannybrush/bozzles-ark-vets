@@ -127,7 +127,7 @@
 					We use essential cookies to ensure our website functions properly and optional cookies to
 					enhance your experience. You can choose which cookies to accept below.
 				</p>
-				<a href="/legal/cookies" class="cookie-link">View our Cookie Policy</a>
+				<a href="/legal/cookie-policy" class="cookie-link">View our Cookie Policy</a>
 			</div>
 
 			{#if !showSettings}
