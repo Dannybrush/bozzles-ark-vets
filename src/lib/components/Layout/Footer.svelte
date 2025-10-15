@@ -123,9 +123,11 @@
         <div class="footer-bottom-content">
           <p class="copyright">© {currentYear} Bozzles Ark Vets. All rights reserved. Company Number #16434819</p>
           <ul class="legal-links">
-            <li><a href="/privacy-policy" class="legal-link">Privacy Policy</a></li>
-            <li><a href="/terms-of-service" class="legal-link">Terms of Service</a></li>
-            <li><a href="/accessibility" class="legal-link">Accessibility</a></li>
+            <li><a href="/legal/privacy-policy" class="legal-link">Privacy Policy</a></li>
+            <li><a href="/legal/terms-of-service" class="legal-link">Terms of Service</a></li>
+            <li><a href="/legal/accessibility" class="legal-link">Accessibility</a></li>
+            <li><a href="/sitemap.xml" class="legal-link">Sitemap</a></li>
+            <li><a href="/legal/cookie-policy" class="legal-link">Cookie Policy</a></li>
           </ul>
           <button class="scroll-top" on:click={scrollToTop} aria-label="Scroll to top">
             <i class="icon-arrow-up"></i>
