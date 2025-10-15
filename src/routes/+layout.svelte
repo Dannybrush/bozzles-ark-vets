@@ -26,8 +26,6 @@
   <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/new-bw-logo.jpg ">
 </svelte:head>
 
-</svelte:head>
-
 <Popup />
 <!--<OpeningSoonBanner /> --> 
 <OsBanner2 />
