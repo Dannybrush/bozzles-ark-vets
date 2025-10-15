@@ -85,7 +85,7 @@
         </div>
         <h3 class="contact-title">Call Us</h3>
         <p class="contact-subtitle">Speak to our team now</p>
-        <p class="contact-detail phone-detail">01455 710796</p>
+        <p class="contact-detail phone-detail">01455 710 796</p>
       </a>
 
       <!-- Email Card -->

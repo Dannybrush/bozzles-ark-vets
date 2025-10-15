@@ -64,7 +64,7 @@
               <button onclick={() => window.location.reload()} class="btn btn-primary">
                 Refresh Page
               </button>
-              <a href="tel:01455842707" class="btn btn-outline">
+              <a href="tel:01455710796" class="btn btn-outline">
                 Call Us Instead
               </a>
             </div>

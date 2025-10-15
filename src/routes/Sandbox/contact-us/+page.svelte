@@ -101,8 +101,8 @@
               </div>
               <div class="info-content">
                 <h3>Phone Numbers</h3>
-                <p>General: <a href="tel:01455850231">01455 850 231</a></p>
-                <p class="emergency">Emergency: <a href="tel:01455850999">01455 850 999</a></p>
+                <p>General: <a href="tel:01455710796">01455 710 796</a></p>
+                <p class="emergency">Emergency: <a href="tel:01455710796">01455 710 796</a></p>
               </div>
             </div>
             

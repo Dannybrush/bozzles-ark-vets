@@ -321,8 +321,10 @@
               <div class="stat-label">Monthly Cost</div>
             </div>
             <div class="stat-card">
-              <div class="stat-number">£{(currentPlan.price * 12).toFixed(0)}</div>
-              <div class="stat-label">Annual Total</div>
+              <!--<div class="stat-number">£{(currentPlan.price * 12).toFixed(0)}</div>
+              <div class="stat-label">Annual Total</div>--> 
+<div class="stat-number">Amazing Savings!</div>
+              <div class="stat-label">No Hassle</div>
             </div>
           </div>
         </div>
@@ -429,7 +431,7 @@
           <a href="/contact" class="btn-cta-secondary">Ask a Question</a>
         </div>
         <p class="contact-info">
-          Call us at <strong>01455 XXX XXX</strong> or visit us at 39 Jersey Way, Barwell, LE9 8HR
+          Call us at <strong>01455 710 796</strong> or visit us at 39 Jersey Way, Barwell, LE9 8HR
         </p>
       </div>
     </section>

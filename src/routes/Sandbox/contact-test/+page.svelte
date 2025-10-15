@@ -78,8 +78,8 @@
     {
       icon: '📞',
       title: 'Call Us',
-      content: '01455 842 999',
-      link: 'tel:01455842999'
+      content: '01455 710 796',
+      link: 'tel:01455710796'
     },
     {
       icon: '📧',
@@ -90,8 +90,8 @@
     {
       icon: '🚨',
       title: 'Emergency',
-      content: '01455 842 999 (24/7)',
-      link: 'tel:01455842999'
+      content: '01455 710 796 (24/7)',
+      link: 'tel:01455710796'
     }
   ];
 
@@ -123,7 +123,7 @@
       <span class="emergency-icon">🚨</span>
       <div>
         <strong>24/7 Emergency Care Available</strong>
-        <p>If your pet needs urgent care, call us immediately: <a href="tel:01455842999">01455 842 999</a></p>
+        <p>If your pet needs urgent care, call us immediately: <a href="tel:01455710796">01455 710 796</a></p>
       </div>
     </div>
   </div>

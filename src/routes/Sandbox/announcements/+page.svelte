@@ -51,7 +51,7 @@
     {
       id: 'ann-2',
       title: 'New Emergency Hotline',
-      message: '24/7 Emergency care is now available. Call us anytime at 01455-EMERGENCY for urgent veterinary assistance.',
+      message: '24/7 Emergency care is now available. Call us anytime at 01455 710 796 for urgent veterinary assistance.',
       type: 'urgent',
       date: '2025-10-05',
       icon: '🚨'
