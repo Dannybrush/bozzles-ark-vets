@@ -1,7 +1,7 @@
 <script>
     import { fade, fly } from 'svelte/transition';
     
-    let logo = 'new-logo.jpg'//'/logo.jpg'; // Path to the logo you shared
+    let logo = '/images/new-logo.jpg'//'/logo.jpg'; // Path to the logo you shared
   </script>
   
   <section class="hero">

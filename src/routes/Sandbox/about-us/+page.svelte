@@ -10,7 +10,7 @@
         id: 1,
         name: "Dr. Sarah Wilson",
         role: "Lead Veterinarian",
-        image: "/JJB.jpg", 
+        image: "/images/JJB.jpg", 
         credentials: "DVM, MRCVS",
         specialty: "Small Animal Medicine",
         bio: "Dr. Wilson founded Bozzles Ark Vets in 2010 with a vision to provide compassionate, comprehensive care for all pets. She has over 15 years of experience in veterinary medicine and is particularly passionate about preventative care and geriatric medicine."

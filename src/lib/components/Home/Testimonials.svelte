@@ -6,28 +6,28 @@
       {
         name: "Sarah Johnson",
         pet: "Max (Labrador)",
-        image: "/lab.jpg",
+        image: "/images/lab.jpg",
         quote: "Dr. Bozzle and the team have been incredible with Max. They always take the time to explain everything and make us both feel comfortable.",
         rating: 5
       },
       {
         name: "Liberty James",
         pet: "Daisy (Cat)",
-        image: "/lib.jpg",
+        image: "/images/lib.jpg",
         quote: "I never thought I'd find a vet that Whiskers would tolerate, but the team at Bozzles somehow made the experience stress-free!",
         rating: 5
       },
       {
         name: "Emma Rodriguez",
         pet: "Sunny (Parrot)",
-        image: "parrot.jpg", 
+        image: "/images/parrot.jpg", 
         quote: "Finding quality care for exotic pets can be challenging. Bozzles Ark Vets has exceptional knowledge about birds and provides the best care for Sunny.",
         rating: 5
       },
       {
         name: "David Thompson",
         pet: "Sheldon (Tortoise)",
-        image: "tort.webp",
+        image: "/images/tort.webp",
         quote: "The exotic pet specialists at Bozzles understand the unique needs of reptiles. Sheldon has been thriving under their care for years.",
         rating: 5
       }

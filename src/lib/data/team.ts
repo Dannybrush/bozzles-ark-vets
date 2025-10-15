@@ -26,7 +26,7 @@ export const TeamMembers: TeamMember[] = [
     name: "Dr. Jasmine Broomhead",
     role: "Head Veterinarian",
     bio: "Specialises in small animal surgery and preventative care with over 10 years of experience.",
-    image: "static/JJB.jpg",
+    image: "static/images/JJB.jpg",
     socials: {
       linkedin: "https://linkedin.com/in/sarahjohnson"
     }

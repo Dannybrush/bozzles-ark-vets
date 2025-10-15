@@ -11,7 +11,7 @@
   <svelte:head>
     <title>Bozzles Ark Vets | Compassionate Care for All Animals</title>
     <meta name="description" content="Bozzles Ark Vets provides comprehensive veterinary care for cats, dogs, birds, reptiles, rabbits and small mammals.">
-    <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/new-logo.jpg" />
+    <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/images/new-logo.jpg" />
 </svelte:head>
 
   <main>

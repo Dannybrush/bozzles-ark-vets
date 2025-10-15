@@ -17,13 +17,13 @@
 
 <svelte:head>
   <title>Bozzles Ark Vets</title>
-  <link rel="icon" type="image/jpeg" href="/new-bw-logo.jpg" />
+  <link rel="icon" type="image/jpeg" href="/images/new-bw-logo.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:site_name" content="Bozzles Ark Vets">
   <meta property="og:title" content="Bozzles Ark Vets">
   <meta property="og:description" content="Comprehensive veterinary care for all your beloved companions">
   <meta property="og:url" content="https://www.bozzlesarkvets.co.uk">
-  <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/new-bw-logo.jpg ">
+  <meta property="og:image" content="https://www.bozzlesarkvets.co.uk/images/new-bw-logo.jpg ">
 </svelte:head>
 
 <Popup />

@@ -5,21 +5,21 @@
         name: "Dr. Jasmine Jade Broomhead",
         credential: "BVetMed MRCVS",
         role: "Lead Veterinarian",
-        image: "placeholder-team-pic_small.jpg",
+        image: "images/placeholder-team-pic_small.jpg",
         specialties: "Small Animals, Surgery"
       },
       {
         name: "Dr. Sergio Rodriguez Valera",
         credential: "LV MRCVS GPCert (ExAP)",        
         role: "Exotic Pet Specialist",
-        image: "placeholder-team-pic_small.jpg",
+        image: "images/placeholder-team-pic_small.jpg",
         specialties: "Birds, Reptiles, Small Mammals"
       },
       {
         name: "Chloe Pickering",
         credential: "RVN",
         role: "Head Veterinary Nurse",
-        image: "placeholder-team-pic_small.jpg",
+        image: "images/placeholder-team-pic_small.jpg",
         specialties: "Emergency Care, Pet Nutrition"
       }
     ];

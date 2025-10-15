@@ -46,8 +46,8 @@
               <p class="footer-email"><i class="icon-email"></i> care@bozzlesarkvets.co.uk</p>
             </address>
             <div class="cert-logos">
-              <img src="/rcvs.jpg" alt="RCVS Accredited" class="cert-logo" />
-              <!--<img src="/cfc.jpg" alt="Cat Friendly Clinic" class="cert-logo" /> -->
+              <img src="/images/rcvs.jpg" alt="RCVS Accredited" class="cert-logo" />
+              <!--<img src="/images/cfc.jpg" alt="Cat Friendly Clinic" class="cert-logo" /> -->
             </div>
           </div>
           
