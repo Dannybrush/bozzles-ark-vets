@@ -144,7 +144,7 @@ export const PriceListData: PriceListData = {
         ]
     }
 
-} as const; // as const assertion to make the object deeply readonly
+} as const satisfies Record<string,PriceListCategory> ; // as const assertion to make the object deeply readonly
 
 
 

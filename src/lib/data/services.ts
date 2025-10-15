@@ -64,7 +64,7 @@ export const servicesData : Service[] = [
       "Experienced emergency veterinarians on call"
     ],
     pricing: "Emergency consultation from £95",
-    emergencyNumber: "01455 842 999",
+    emergencyNumber: "01455 710 796",
     faqs: [
       {
         question: "What constitutes a veterinary emergency?",
