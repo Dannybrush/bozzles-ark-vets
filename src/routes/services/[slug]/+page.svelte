@@ -1,15 +1,34 @@
 <script>
   import { fade, fly, slide, scale } from 'svelte/transition';
-  import { quintOut } from 'svelte/easing';
-  
+  import { quintOut } from 'svelte/easing';  
   let { data } = $props();
-  let { service, relatedServices } = data;
+    // CHANGE: Destructure reactively using $derived
+  let service = $derived(data.service);
+  let relatedServices = $derived(data.relatedServices);
   
   let expandedFaq = $state(null);
   
   function toggleFaq(index) {
     expandedFaq = expandedFaq === index ? null : index;
   }
+  
+let currentSlug = $state(service.slug);
+
+    // ADD: Reset state when service changes
+  $effect(() => {
+    if (service.slug !== currentSlug) {
+      currentSlug = service.slug;
+      expandedFaq = null; // Reset FAQ state
+      
+      // Optional: Scroll to top on service change
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+  });
+
+ 
+
 </script>
 
 <svelte:head>

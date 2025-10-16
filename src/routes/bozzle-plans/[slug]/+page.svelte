@@ -1,28 +1,32 @@
 <script lang="ts">
-  import { page } from '$app/stores';
   import { fly, scale, fade } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import type { Plan, RelatedPlan } from '$lib/data/bozzleplansslugs';
-  import { allPlans } from '$lib/data/bozzleplansslugs'; 
-
-  // Get current plan from URL parameter
-  const planId = $page.params.slug;
-  const currentPlan : Plan = allPlans[planId];
-
-  // Get related plans (same category or similar price)
-  let relatedPlans : RelatedPlan[] = $derived.by(() => {
-    if (!currentPlan) return [];
-    
-    return Object.values(allPlans)
-      .filter(p => p.id !== currentPlan.id && p.category === currentPlan.category)
-      .slice(0, 2)
-      .map(p => ({ id: p.id, name: p.name, icon: p.icon, price: p.price }));
-  });
-
+ 
+  let {data} = $props();
+  let currentPlan = $derived(data.currentPlan) 
+  let relatedPlans = $derived(data.relatedPlans)
+  
   let showAllComponents = $state(false);
   let displayedComponents = $derived(
     showAllComponents ? currentPlan?.components : currentPlan?.components.slice(0, 6)
   );
+
+  let currentPlanId = $state(currentPlan.id);
+  
+  $effect(() => {
+    if (currentPlan.id !== currentPlanId) {
+      currentPlanId = currentPlan.id;
+      showAllComponents = false;  // Reset to collapsed when changing plans
+      
+      // Optional: Scroll to top
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+  });
+
+
 </script>
 
 <svelte:head>

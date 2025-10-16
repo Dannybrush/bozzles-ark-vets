@@ -112,7 +112,7 @@
                            <a href="https://Linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
                 <i class="icon-linkedin"></i>
               </a>
-             <a href="https://www.bozzlesarkvets.co.uk/meet-the-developer" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Daniel Broomhead — Web Developer"><img src="/DB-Monogram.png" alt="Daniel Broomhead Logo" class="dev-logo">
+             <a href="https://www.bozzlesarkvets.co.uk/meet-the-developer" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Daniel Broomhead — Web Developer"><img src="/images/DB-Monogram.png" alt="Daniel Broomhead Logo" class="dev-logo">
 </a>
 
             </div>

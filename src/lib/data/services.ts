@@ -36,7 +36,7 @@ export const servicesData : Service[] = [
       "Habitat and husbandry advice",
       "Emergency exotic pet care"
     ],
-    pricing: "Consultations from £45",
+    pricing: "Consultations from £50",
     faqs: [
       {
         question: "What types of exotic pets do you treat?",
@@ -63,7 +63,7 @@ export const servicesData : Service[] = [
       "Critical care monitoring",
       "Experienced emergency veterinarians on call"
     ],
-    pricing: "Emergency consultation from £95",
+    pricing: "Emergency consultation from £100",
     emergencyNumber: "01455 710 796",
     faqs: [
       {
@@ -91,7 +91,7 @@ export const servicesData : Service[] = [
       "Rapid test results (often within hours)",
       "ECG and cardiac monitoring"
     ],
-    pricing: "From £65 depending on tests required",
+    pricing: "From £35 depending on tests required",
     faqs: [
       {
         question: "How long does diagnostic imaging take?",
@@ -145,7 +145,7 @@ export const servicesData : Service[] = [
       "Nutritional counseling",
       "10% discount on additional services"
     ],
-    pricing: "From £25/month depending on pet size and age",
+    pricing: "From £12.50 - £25/month depending on pet size, species and age",
     faqs: [
       {
         question: "Can I cancel my health plan?",
@@ -172,7 +172,7 @@ export const servicesData : Service[] = [
       "Vaccine health checks included",
       "Digital vaccination certificates"
     ],
-    pricing: "Dogs from £45, Cats from £40, Rabbits from £50",
+    pricing: "Dogs from £45, Cats from £60, Rabbits from £55",
     faqs: [
       {
         question: "When should my puppy or kitten be vaccinated?",
@@ -226,7 +226,7 @@ export const servicesData : Service[] = [
       "Prescription medications available",
       "Follow-up care and monitoring"
     ],
-    pricing: "Standard consultation £45, Extended consultation £65",
+    pricing: "Standard consultation £50, Extended consultation £75",
     faqs: [
       {
         question: "When should I bring my pet in?",
@@ -253,7 +253,7 @@ export const servicesData : Service[] = [
       "Oral surgery",
       "Home dental care advice"
     ],
-    pricing: "Dental check-up £35, Professional cleaning from £250",
+    pricing: "Dental check-up included free in standard consultation, Professional cleaning, Scale & Polish from £350",
     faqs: [
       {
         question: "Does my pet need to be anesthetized for dental cleaning?",
@@ -307,7 +307,7 @@ export const servicesData : Service[] = [
       "Regular updates to pet owners",
       "Experienced veterinary nurses"
     ],
-    pricing: "From £150 per 24-hour period including treatment",
+    pricing: "From £190 per 12-hour period including treatment",
     faqs: [
       {
         question: "Can I visit my pet during hospitalisation?",
@@ -334,7 +334,7 @@ export const servicesData : Service[] = [
       "Cremation services",
       "Memorial options including paw prints and fur clippings"
     ],
-    pricing: "Euthanasia from £95, Home visit from £150",
+    pricing: "Euthanasia from £50, Home visit from £170",
     faqs: [
       {
         question: "How do I know when it's time?",
@@ -348,7 +348,7 @@ export const servicesData : Service[] = [
   }
 ];
 
-export function getServiceBySlug(slug) {
+export function getServiceBySlug(slug : string) {
   return servicesData.find(service => service.slug === slug);
 }
 
