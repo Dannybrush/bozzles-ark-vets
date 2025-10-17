@@ -44,6 +44,7 @@
           <ul class="nav-list">
             <li><a href="/" class="nav-link">Home</a></li>
             <li><a href="/services" class="nav-link">Services</a></li>
+            <li><a href="/services/pricelist" class="nav-link">Price List</a></li>
             <li><a href="/bozzle-plans" class="nav-link">Bozzle Health Plans</a></li>
 
             <!--<li><a href="/about-us" class="nav-link">About Us</a></li>
