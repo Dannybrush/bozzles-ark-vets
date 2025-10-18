@@ -2,16 +2,21 @@
   import { fly, scale, fade } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import type { Plan, RelatedPlan } from '$lib/data/bozzleplansslugs';
+
+
+
+    // ============  IMPORTS for Offer Components ============
+  import OfferBanner from '$lib/components/BozzlePlans/OfferBanner.svelte';
+  import OfferBadge from '$lib/components/BozzlePlans/OfferBadge.svelte';
+  // =========================================================
+
  
   let {data} = $props();
   let currentPlan = $derived(data.currentPlan) 
   let relatedPlans = $derived(data.relatedPlans)
   
   let showAllComponents = $state(false);
-  let displayedComponents = $derived(
-    showAllComponents ? currentPlan?.components : currentPlan?.components.slice(0, 6)
-  );
-
+  let displayedComponents = $derived( showAllComponents ? currentPlan?.components : currentPlan?.components.slice(0, 6)   );
   let currentPlanId = $state(currentPlan.id);
   
   $effect(() => {
@@ -26,6 +31,18 @@
     }
   });
 
+  // ============ NEW: UPFRONT OFFER CALCULATIONS ============
+  // Check if offer is still valid (before Jan 1, 2026)
+  const offerEndDate = new Date('2026-01-01T00:00:00');
+  const now = new Date();
+  const isOfferValid = now < offerEndDate;
+  
+  // Calculate upfront pricing (10 months = 2 months free)
+  let upfrontPrice = $derived(currentPlan ? currentPlan.price * 10 : 0);
+  let upfrontSavings = $derived(currentPlan ? currentPlan.price * 2 : 0);
+  let totalMonthsCovered = 12;
+  // =========================================================
+
 
 </script>
 
@@ -33,6 +50,10 @@
   <title>{currentPlan?.name || 'Plan'} - Bozzle Plans | Bozzles Ark Vets</title>
   <meta name="description" content={currentPlan?.description || 'Pet care plan details'} />
 </svelte:head>
+
+<!-- ============ NEW: OFFER BANNER ============ -->
+<OfferBanner />
+<!-- =========================================== -->
 
 {#if !currentPlan}
   <div class="not-found">
@@ -49,6 +70,12 @@
       class="hero"
       style="--plan-color: {currentPlan.color}; --plan-gradient: {currentPlan.gradient};"
     >
+
+      <!-- ============ NEW: OFFER BADGE ============ -->
+      <OfferBadge />
+      <!-- ========================================== -->
+
+
       <div class="container">
         <a href="/bozzle-plans" class="back-link" in:fly={{ x: -20, duration: 400 }}>
           ← Back to All Plans
@@ -63,9 +90,32 @@
               <span class="price-amount">£{currentPlan.price.toFixed(2)}</span>
               <span class="price-period">per month</span>
             </div>
+
+    <!-- ============ NEW: UPFRONT OFFER DISPLAY IN HERO ============ -->
+            {#if isOfferValid}
+              <div class="upfront-offer-hero" in:scale={{ delay: 300, duration: 400 }}>
+                <div class="offer-badge-small">⚡ Limited Offer</div>
+                <div class="offer-price">
+                  Pay £{upfrontPrice.toFixed(2)} upfront
+                </div>
+                <div class="offer-savings">
+                  Save £{upfrontSavings.toFixed(2)} • Get 2 months FREE!
+                </div>
+              </div>
+            {/if}
+            <!-- ============================================================ -->
+
             <div class="hero-buttons">
-              <a href="/contact?plan={currentPlan.id}" class="btn-primary">Sign Up Now</a>
-              <a href="#components" class="btn-secondary">View Details</a>
+              <a href="/contact?plan={currentPlan.id}" class="btn-primary">Contact Us About This Plan</a>
+              <!-- ============ UPDATED: NEW UPFRONT CTA BUTTON ============ -->
+              {#if isOfferValid}
+                <a href="/contact?plan={currentPlan.id}&offer=upfront" class="btn-offer">
+                  Get Upfront Offer
+                </a>
+              {:else}
+                <a href="#components" class="btn-secondary">View Details</a>
+              {/if}
+              <!-- ========================================================= -->
             </div>
           </div>
           
@@ -105,12 +155,26 @@
               <div class="stat-number">£{currentPlan.price}</div>
               <div class="stat-label">Monthly Cost</div>
             </div>
-            <div class="stat-card">
-              <!--<div class="stat-number">£{(currentPlan.price * 12).toFixed(0)}</div>
-              <div class="stat-label">Annual Total</div>--> 
-<div class="stat-number">Amazing Savings!</div>
-              <div class="stat-label">No Hassle</div>
-            </div>
+             <!-- ============ UPDATED: REPLACED "Amazing Savings" WITH UPFRONT OFFER ============ -->
+            {#if isOfferValid}
+              <div class="stat-card stat-card-offer" in:scale={{ delay: 200, duration: 500 }}>
+                <div class="offer-icon">🎉</div>
+                <div class="stat-offer-title">Pay Upfront & Save!</div>
+                <div class="stat-offer-price">£{upfrontPrice.toFixed(2)}</div>
+                <div class="stat-offer-detail">for {totalMonthsCovered} months</div>
+                <div class="stat-offer-savings">Save £{upfrontSavings.toFixed(2)}</div>
+                <div class="stat-offer-badge">2 MONTHS FREE</div>
+                <a href="/contact?plan={currentPlan.id}&offer=upfront" class="stat-offer-cta">
+                  Ask About This Offer
+                </a>
+              </div>
+            {:else}
+              <div class="stat-card">
+                <div class="stat-number">Flexible</div>
+                <div class="stat-label">Payment Options</div>
+              </div>
+            {/if}
+            <!-- ================================================================================ -->
           </div>
         </div>
       </div>
@@ -167,6 +231,17 @@
             <h3>How do I sign up?</h3>
             <p>Simply contact us by phone or visit our practice. Our team will help you enroll and answer any questions you have.</p>
           </div>
+
+
+                    <!-- ============ NEW: UPFRONT OFFER FAQ ============ -->
+          {#if isOfferValid}
+            <div class="faq-item faq-item-highlight" in:scale={{ delay: 100, duration: 400 }}>
+              <div class="faq-highlight-badge">⚡ New</div>
+              <h3>How does the upfront payment offer work?</h3>
+              <p>Pay for 10 months upfront before December 31, 2025, and receive 12 months of coverage - that's 2 months completely FREE! Contact us to take advantage of this limited-time offer.</p>
+            </div>
+          {/if}
+          <!-- ================================================ -->
           
           <div class="faq-item">
             <h3>Can I cancel anytime?</h3>
@@ -198,6 +273,14 @@
                 <div class="related-icon">{plan.icon}</div>
                 <h3>{plan.name}</h3>
                 <div class="related-price">£{plan.price.toFixed(2)}/month</div>
+
+                 <!-- ============ NEW: SHOW UPFRONT SAVINGS ON RELATED CARDS ============ -->
+                {#if isOfferValid}
+                  <div class="related-offer">
+                    Or £{(plan.price * 10).toFixed(2)} upfront (save £{(plan.price * 2).toFixed(2)})
+                  </div>
+                {/if}
+                <!-- ==================================================================== -->
                 <span class="related-link">View Plan →</span>
               </a>
             {/each}
@@ -205,15 +288,33 @@
         </div>
       </section>
     {/if}
-
     <!-- CTA Section -->
     <section class="cta" style="--plan-gradient: {currentPlan.gradient};">
       <div class="container">
         <h2>Ready to Get Started?</h2>
         <p>Give your {currentPlan.name.toLowerCase().replace(' plan', '')} the care they deserve</p>
+        
+        <!-- ============ UPDATED: NEW CTA BUTTONS WITH UPFRONT OFFER ============ -->
+        {#if isOfferValid}
+          <div class="cta-offer-box" in:scale={{ delay: 200, duration: 500 }}>
+            <div class="cta-offer-badge">⚡ Limited Time Offer - Ends Dec 31, 2025</div>
+            <div class="cta-offer-text">
+              Pay £{upfrontPrice.toFixed(2)} upfront and get <strong>2 MONTHS FREE</strong>
+            </div>
+          </div>
+        {/if}
+        <!-- ===================================================================== -->
+        
         <div class="cta-buttons">
-          <a href="/contact?plan={currentPlan.id}" class="btn-cta-primary">Sign Up for {currentPlan.name}</a>
-          <a href="/contact" class="btn-cta-secondary">Ask a Question</a>
+          {#if isOfferValid}
+            <a href="/contact?plan={currentPlan.id}&offer=upfront" class="btn-cta-primary">
+              Get Upfront Offer - Save £{upfrontSavings.toFixed(2)}
+            </a>
+            <a href="/contact?plan={currentPlan.id}" class="btn-cta-secondary">Monthly Plan</a>
+          {:else}
+            <a href="/contact?plan={currentPlan.id}" class="btn-cta-primary">Sign Up for {currentPlan.name}</a>
+            <a href="/contact" class="btn-cta-secondary">Ask a Question</a>
+          {/if}
         </div>
         <p class="contact-info">
           Call us at <strong>01455 710 796</strong> or visit us at 39 Jersey Way, Barwell, LE9 8HR
@@ -335,13 +436,46 @@
     opacity: 0.9;
   }
 
+
+    /* ============ NEW: UPFRONT OFFER HERO STYLES ============ */
+  .upfront-offer-hero {
+    background: rgba(251, 191, 36, 0.95);
+    color: #1a202c;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .offer-badge-small {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    color: #78350f;
+  }
+
+  .offer-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+  }
+
+  .offer-savings {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #78350f;
+  }
+  /* ======================================================== */
   .hero-buttons {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
   }
 
-  .btn-primary, .btn-secondary {
+  .btn-primary, .btn-secondary, .btn-offer {
     padding: 1rem 2rem;
     border-radius: 50px;
     font-size: 1.125rem;
@@ -373,6 +507,28 @@
     color: var(--plan-color);
     transform: translateY(-2px);
   }
+    /* ============ NEW: OFFER BUTTON STYLES ============ */
+  .btn-offer {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1a202c;
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  .btn-offer:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(251, 191, 36, 0.6);
+  }
+
+  @keyframes shimmer {
+    0%, 100% {
+      box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+    }
+    50% {
+      box-shadow: 0 6px 16px rgba(251, 191, 36, 0.6);
+    }
+  }
+  /* =================================================== */
 
   .feature-highlight {
     background: rgba(255, 255, 255, 0.15);
