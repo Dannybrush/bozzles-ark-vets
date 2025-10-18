@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-  <title>404 - Page Not Found | Bozzles Ark Vets</title>
+  <title>Contact Us | Bozzles Ark Vets</title>
   <meta name="description" content="This page doesn't exist yet, but we're here to help! Contact Bozzles Ark Vets for all your pet care needs." />
 </svelte:head>
 
