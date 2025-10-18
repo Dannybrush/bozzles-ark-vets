@@ -19,6 +19,7 @@
   <title>Bozzles Ark Vets</title>
   <link rel="icon" type="image/jpeg" href="/images/new-bw-logo.jpg" />
   <link rel="icon" href="/favicon.ico" />
+  
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
