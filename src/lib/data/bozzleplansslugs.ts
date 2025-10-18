@@ -50,7 +50,8 @@
         { name: '10% Off Diagnostic Imaging', value: true, description: 'Savings on X-rays, ultrasounds, and CT scans' },
         { name: '20% Off Dental Treatments', value: true, description: 'Significant savings on dental care and procedures' },
         { name: '10% Off Dog Food', value: true, description: 'Discount on veterinary recommended nutrition' },
-        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' }
+        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' },
+        { name: '£20 Primary Course Vaccinations', value: true, description: 'Affordable permanent identification' }
       ]
     },
     'small-dog': {
@@ -76,7 +77,8 @@
         { name: '10% Off Diagnostic Imaging', value: true, description: 'Savings on X-rays, ultrasounds, and CT scans' },
         { name: '20% Off Dental Treatments', value: true, description: 'Significant savings on dental care and procedures' },
         { name: '10% Off Dog Food', value: true, description: 'Discount on veterinary recommended nutrition' },
-        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' }
+        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' },
+        { name: '£20 Primary Course Vaccinations', value: true, description: 'Affordable permanent identification' }
       ]
     },
     'cat': {
@@ -101,7 +103,8 @@
         { name: '10% Off Diagnostic Imaging', value: true, description: 'Savings on X-rays, ultrasounds, and CT scans' },
         { name: '20% Off Dental Treatments', value: true, description: 'Significant savings on dental care and procedures' },
         { name: '10% Off Cat Food', value: true, description: 'Discount on veterinary recommended nutrition' },
-        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' }
+        { name: '£10 Microchipping', value: true, description: 'Affordable permanent identification' },
+        { name: '£20 Primary Course Vaccinations', value: true, description: 'Affordable permanent identification' }
       ]
     },
     'rabbit': {

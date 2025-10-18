@@ -251,6 +251,17 @@
       birds: true,
       reptile: true,
       exoticMammal: true
+    },
+    {
+      name: '£20 Primary Course Vaccinations',
+      largeDog: true,
+      smallDog: true,
+      cat: true,
+      rabbit: false,
+      ferret: false,
+      birds: false,
+      reptile: false,
+      exoticMammal: false
     }
   ];
 
