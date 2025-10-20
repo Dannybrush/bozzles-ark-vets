@@ -1,4 +1,10 @@
-User-agent: *
-Disallow:
+# robots.txt for Bozzles Ark Vets
+# This file tells search engines how to crawl and index your site.
 
-Sitemap: /sitemap.xml
+User-agent: *
+Disallow: /dev/
+Disallow: /admin/
+Allow: /
+
+# Sitemap location (important for SEO)
+Sitemap: https://www.bozzlesarkvets.co.uk/sitemap.xml

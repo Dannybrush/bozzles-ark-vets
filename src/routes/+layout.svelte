@@ -7,7 +7,9 @@
     import OpeningSoonBanner from '$lib/components/Layout/OpeningSoonBanner.svelte';
     import OsBanner2 from '$lib/components/Layout/OS_banner2.svelte';
     import CookieBanner from '$lib/components/CookieBanner.svelte';  
-     import { cookiePreferences} from '$lib/stores/cookieStore'; 
+    import { cookiePreferences} from '$lib/stores/cookieStore'; 
+    import NowOpenBanner from '$lib/components/Layout/NowOpenBanner.svelte';
+    import WelcomePopup from '$lib/components/Layout/WelcomePopup.svelte';
     import { onMount } from 'svelte';
 
      onMount(() => {
@@ -41,9 +43,9 @@
 
 </svelte:head>
 
-<Popup />
+<WelcomePopup />
 <!--<OpeningSoonBanner /> --> 
-<OsBanner2 />
+<NowOpenBanner />
 
 
 
