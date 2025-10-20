@@ -117,6 +117,7 @@
     .main-nav {
       display: flex;
       align-items: center;
+      z-index: 110;
     }
     
     .nav-list {
