@@ -128,7 +128,7 @@
           <ul class="legal-links">
             <li><a href="/legal/privacy-policy" class="legal-link">Privacy Policy</a></li>
             <li><a href="/legal/terms-of-service" class="legal-link">Terms of Service</a></li>
-            <li><a href="/legal/accessibility" class="legal-link">Accessibility</a></li>
+            <li><a href="/legal/accessibility-statement" class="legal-link">Accessibility</a></li>
             <li><a href="/sitemap.xml" class="legal-link">Sitemap</a></li>
             <li><a href="/legal/cookie-policy" class="legal-link">Cookie Policy</a></li>
           </ul>
