@@ -5,7 +5,7 @@
     import CallToAction from '$lib/components/Home/CallToAction.svelte';
     import TeamHighlight from '$lib/components/Home/TeamHighlight.svelte';
     import EmergencyBanner from '$lib/components/Home/EmergencyBanner.svelte';
-    import PreReg from '$lib/components/Home/PreReg.svelte';
+    import PreReg from '../archive/PreReg.svelte';
  </script>
   
   <svelte:head>
@@ -24,7 +24,7 @@
     <!-- Main services overview -->
     <Services />
     <!-- Pre-registration form -->
-    <PreReg />
+     <!--  <PreReg /> --> 
     <!-- Team introduction -->
     <TeamHighlight />
     <!-- Client testimonials -->
