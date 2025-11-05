@@ -33,7 +33,7 @@
 
 <main class="appointments-page">
   <!-- Header Section -->
-  <section class="header-section">
+  <section id="top" class="header-section">
     <div class="container">
       <div class="header-content" in:fly={{ y: 30, duration: 800 }}>
         <h1>Register & Book Your Appointment</h1>

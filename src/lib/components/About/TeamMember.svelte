@@ -5,7 +5,7 @@
       role = '', 
       image = '', 
       credentials = '', 
-      specialty = '', 
+      interests = '', 
       bio = '' 
     } = $props();
     
@@ -29,7 +29,7 @@
     <div class="card-body">
       <h3 class="font-bold text-xl text-primary">{name}</h3>
       <p class="text-secondary font-medium">{role}</p>
-      <p class="text-text-light text-sm mb-2">{credentials} • {specialty}</p>
+      <p class="text-text-light text-sm mb-2">{credentials} • {interests}</p>
       
       {#if bio}
         <p class="text-text-light text-sm mb-3 transition-all duration-300" class:line-clamp-3={!isExpanded}>

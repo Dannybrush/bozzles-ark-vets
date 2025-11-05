@@ -4,23 +4,23 @@
       {
         name: "Dr. Jasmine Jade Broomhead",
         credential: "BVetMed MRCVS",
-        role: "Lead Veterinarian",
+        role: "Head Veterinarian",
         image: "images/placeholder-team-pic_small.jpg",
-        specialties: "Small Animals, Surgery"
+        interests: "Small Animals, Surgery"
       },
       {
         name: "Dr. Sergio Rodriguez Valera",
         credential: "LV MRCVS GPCert (ExAP)",        
-        role: "Exotic Pet Specialist",
+        role: "Lead Exotics Veterinarian",
         image: "images/placeholder-team-pic_small.jpg",
-        specialties: "Birds, Reptiles, Small Mammals"
+        interests: "Birds, Reptiles, Small Mammals"
       },
       {
         name: "Chloe Pickering",
         credential: "RVN",
         role: "Head Veterinary Nurse",
         image: "images/placeholder-team-pic_small.jpg",
-        specialties: "Emergency Care, Pet Nutrition"
+        interests: "Emergency Care, Pet Nutrition"
       }
     ];
   </script>
@@ -46,7 +46,7 @@
               <h3>{member.name}</h3>
               <h4>{member.credential}</h4>
               <p class="member-role">{member.role}</p>
-              <p class="member-specialty">Specialties: {member.specialties}</p>
+              <p class="member-interests">interests: {member.interests}</p>
             </div>
           </div>
         {/each}
@@ -156,7 +156,7 @@
       margin-bottom: 0.75rem;
     }
     
-    .member-specialty {
+    .member-interests {
       color: #4a5568;
       font-size: 0.875rem;
     }

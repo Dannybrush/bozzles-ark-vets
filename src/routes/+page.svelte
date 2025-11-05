@@ -5,6 +5,7 @@
     import CallToAction from '$lib/components/Home/CallToAction.svelte';
     import TeamHighlight from '$lib/components/Home/TeamHighlight.svelte';
     import EmergencyBanner from '$lib/components/Home/EmergencyBanner.svelte';
+    import AppointmentCTA from '$lib/components/Home/AppointmentCTA.svelte';
     
  </script>
   
@@ -25,6 +26,10 @@
     <Services />
     <!-- Pre-registration form -->
      <!--  <PreReg /> --> 
+
+    <!-- Appointment call to action -->
+    <AppointmentCTA sectionId="BookAppointment" />
+    
     <!-- Team introduction -->
     <TeamHighlight />
     <!-- Client testimonials -->
