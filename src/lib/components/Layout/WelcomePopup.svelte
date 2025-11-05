@@ -96,7 +96,7 @@
       
       <div class="popup-body">
         <p id="popup-description" class="main-text">
-          Our doors are officially open today, and we're ready to provide 
+          Our doors are officially open, and we're ready to provide 
           <strong>compassionate, expert veterinary care</strong> for all creatures great and small.
         </p>
         

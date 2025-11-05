@@ -3,9 +3,6 @@
   import Footer from '$lib/components/Layout/Footer.svelte';
   import '$lib//styles/global.css';
   //import DevBanner from '$lib/components/Layout/DevBanner.svelte';
-  import Popup from '$lib/components/Layout/Popup.svelte';
-    import OpeningSoonBanner from '$lib/components/Layout/OpeningSoonBanner.svelte';
-    import OsBanner2 from '$lib/components/Layout/OS_banner2.svelte';
     import CookieBanner from '$lib/components/CookieBanner.svelte';  
     import { cookiePreferences} from '$lib/stores/cookieStore'; 
     import NowOpenBanner from '$lib/components/Layout/NowOpenBanner.svelte';

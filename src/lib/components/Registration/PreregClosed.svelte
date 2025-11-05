@@ -5,10 +5,10 @@
   
   // Statistics data - Update these numbers with actual data
   const stats = [
-    { value: '850+', label: 'Families Registered', icon: '👨‍👩‍👧‍👦' },
-    { value: '1,247', label: 'Pets Registered', icon: '🐾' },
-    { value: '15+', label: 'Species Registered', icon: '🦜' },
-    { value: '320+', label: 'Appointments Booked', icon: '📅' }
+    { value: '365+', label: 'Families Registered', icon: '👨‍👩‍👧‍👦' },
+    { value: '675+', label: 'Pets Registered', icon: '🐾' },
+    { value: '25+', label: 'Species Registered', icon: '🦜' },
+    { value: '150+', label: 'Appointments Booked', icon: '📅' }
   ];
   
   function handleRedirect() {
