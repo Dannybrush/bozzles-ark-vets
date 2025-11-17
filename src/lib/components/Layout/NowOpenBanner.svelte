@@ -63,7 +63,7 @@
           <span class="cta-icon">📅</span>
           Book Your Appointment
         </a>
-        <a href="tel:+441455123456" class="cta-button primary">
+        <a href="tel:+441455710796" class="cta-button primary">
           <span class="cta-icon">📞</span>
           Call Us Now
         </a>
