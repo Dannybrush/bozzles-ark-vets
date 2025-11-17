@@ -76,7 +76,7 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       padding: 1rem 0;
       position: relative;
-      z-index: 50;
+      z-index: 101;
       transition: all 0.3s ease;
     }
     
@@ -117,7 +117,7 @@
     .main-nav {
       display: flex;
       align-items: center;
-      z-index: 80;
+      z-index: 120;
     }
     
     .nav-list {
