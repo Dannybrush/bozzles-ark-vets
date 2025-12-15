@@ -8,6 +8,7 @@
     import NowOpenBanner from '$lib/components/Layout/NowOpenBanner.svelte';
     import WelcomePopup from '$lib/components/Layout/WelcomePopup.svelte';
     import { onMount } from 'svelte';
+    import FinalOfferPopup from '$lib/components/Layout/FinalOfferPopup.svelte';
 
      onMount(() => {
        cookiePreferences.load() } );
@@ -39,8 +40,8 @@
   </script>
 
 </svelte:head>
-
-<WelcomePopup />
+<FinalOfferPopup /> 
+<!--<WelcomePopup />-->
 <!--<OpeningSoonBanner /> --> 
 <NowOpenBanner />
 
