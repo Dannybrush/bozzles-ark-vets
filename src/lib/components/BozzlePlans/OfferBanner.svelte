@@ -1,9 +1,9 @@
 <script lang="ts">
   import { fly, fade } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
-  
-  // Check if offer is still valid (before Jan 1, 2026)
-  const offerEndDate = new Date('2026-01-01T00:00:00');
+
+  // Check if offer is still valid (before Feb 1, 2026)
+  const offerEndDate = new Date('2026-02-01T00:00:00');
   const now = new Date();
   const isOfferValid = now < offerEndDate;
   
@@ -26,11 +26,11 @@
         <div class="banner-text">
           <strong>Limited Time Offer!</strong>
           <span class="banner-message">
-            Pay upfront before Dec 31, 2025 and get <strong>2 MONTHS FREE</strong>
-          </span>
+            Pay upfront NOW and get <strong>1 MONTH FREE</strong>
+          </span><!--
           <span class="banner-countdown">
-            {daysRemaining} {daysRemaining === 1 ? 'day' : 'days'} remaining
-          </span>
+             {daysRemaining} {daysRemaining === 1 ? 'day' : 'days'} remaining
+          </span> --> 
         </div>
         <button class="banner-dismiss" onclick={dismissBanner} aria-label="Dismiss offer banner">
           ✕

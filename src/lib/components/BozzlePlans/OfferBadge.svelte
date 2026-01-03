@@ -1,6 +1,6 @@
 <script lang="ts">
-  // Check if offer is still valid (before Jan 1, 2026)
-  const offerEndDate = new Date('2026-01-01T00:00:00');
+  // Check if offer is still valid (before Feb 1, 2026)
+  const offerEndDate = new Date('2026-02-01T00:00:00');
   const now = new Date();
   const isOfferValid = now < offerEndDate;
 </script>
@@ -11,7 +11,7 @@
       <div class="badge-icon">⚡</div>
       <div class="badge-text">
         <span class="badge-title">Limited Offer</span>
-        <span class="badge-subtitle">2 Months FREE!</span>
+        <span class="badge-subtitle">1 Month FREE!</span>
       </div>
     </div>
     <div class="badge-pulse"></div>

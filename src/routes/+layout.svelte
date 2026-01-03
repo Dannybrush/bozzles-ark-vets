@@ -1,15 +1,14 @@
 <script>
-  import Header from '$lib/components/Layout/Header.svelte';
+  //import Header from '$lib/components/Layout/Header.svelte';
   import Footer from '$lib/components/Layout/Footer.svelte';
   import '$lib//styles/global.css';
   //import DevBanner from '$lib/components/Layout/DevBanner.svelte';
     import CookieBanner from '$lib/components/CookieBanner.svelte';  
     import { cookiePreferences} from '$lib/stores/cookieStore'; 
     import NowOpenBanner from '$lib/components/Layout/NowOpenBanner.svelte';
-    import WelcomePopup from '$lib/components/Layout/WelcomePopup.svelte';
     import { onMount } from 'svelte';
-    import FinalOfferPopup from '$lib/components/Layout/FinalOfferPopup.svelte';
-
+    import NY2026Offer from '$lib/components/Layout/NY2026Offer.svelte';
+    import Header from '$lib/components/Refactored/Layout/Header.svelte';
      onMount(() => {
        cookiePreferences.load() } );
 
@@ -40,17 +39,14 @@
   </script>
 
 </svelte:head>
-<FinalOfferPopup /> 
+<NY2026Offer /> 
 <!--<WelcomePopup />-->
 <!--<OpeningSoonBanner /> --> 
 <NowOpenBanner />
 
-
-
 <!--<DevBanner />--> 
 <div class="app">
   <Header />
-  
   <div class="content">
     <slot />
   </div>
