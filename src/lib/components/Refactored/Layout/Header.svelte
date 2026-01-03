@@ -8,7 +8,8 @@ const navConfig: NavigationConfig = {
     { href: '/services/pricelist', label: 'Price List' },
     { href: '/bozzle-plans', label: 'Bozzle Health Plans' },
     { href: '/contact', label: 'Contact' },
-    { href: '/pre-registration', label: 'Pre-Register!' }
+    // { href: '/pre-registration', label: 'Pre-Register!' }
+    { href: '/appointments', label: 'Registrations & Appointments' }
   ],
   actionLinks: {
     portal: { href: '/pet-portal', label: 'Pet Portal' },
