@@ -59,11 +59,11 @@
       
       <!-- Call to Action -->
       <div class="cta-section">
-        <a href="#Services" class="cta-button secondary">
+        <a href="/appointments" class="cta-button secondary">
           <span class="cta-icon">📅</span>
           Book Your Appointment
         </a>
-        <a href="tel:+441455710796" class="cta-button primary">
+        <a href="/contact" class="cta-button primary">
           <span class="cta-icon">📞</span>
           Call Us Now
         </a>
