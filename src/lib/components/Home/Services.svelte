@@ -23,19 +23,19 @@
         icon:"🩸",
         link: "/services/Diagnostics"
       },
-            {
+      /*      {
         title: "Early Drop-off and Late Pick-up",
         description: "Convenient options for busy pet owners.",
         icon: "⌚",
         link: "/services/flexible-hours"
-      },
+      },*/
       {
         title: "Health Plans",
         description: "Bundled comprehensive check-ups and preventive care to keep your pets healthy.",
         icon: "🩺",
         link: "/services/wellness"
-      },
-      
+      }
+      ,
         {
         title: "Vaccinations",
         description: "Protective vaccines to safeguard your pet's health.",
@@ -53,19 +53,20 @@
         description: "Expert diagnosis and treatment for ill pets.",
         icon: "💊",
         link: "/services/parasite-prevention"
-      },
+      },/*
        {
         title: "Dental Care",
         description: "Complete dental services to maintain your pet's oral health.",
         icon: "🦷",
         link: "/services/dental"
-      },
+      },*/
       {
         title: "Surgery",
         description: "From routine procedures to complex operations with expert veterinary care.",
         icon: "⚕️",
         link: "/services/surgery"
-      },  
+      }/*
+      ,  
         {
         title: "Hospitalisation",
         description: "Hospital care with round-the-clock monitoring and treatment.",
@@ -77,7 +78,7 @@
         description: "Compassionate support and services during your pet's final moments.",
         icon: "🕊️", 
         link: "/services/eol"
-      }
+      }*/
     ];
   </script>
   
