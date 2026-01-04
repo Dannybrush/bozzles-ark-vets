@@ -6,7 +6,7 @@
   
   import { fade, fly } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
-  import { Calendar, Paw, Ambulance, Check } from 'lucide-svelte';
+  import { Calendar, Paw, Ambulance, Check } from '@lucide/svelte';
   
   // Component props with defaults
   interface Props {

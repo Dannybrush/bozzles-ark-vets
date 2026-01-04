@@ -1,6 +1,4 @@
-/**
- * Hero Section Configuration
- */
+/* Hero Section Configuration  */
 
 export interface HeroConfig {
   logo: {
@@ -51,9 +49,7 @@ export const heroConfig: HeroConfig = {
   }
 };
 
-/**
- * Alternative hero configurations for different pages or campaigns
- */
+/* Alternative hero configurations for different pages or campaigns  */
 export const emergencyHeroConfig: HeroConfig = {
   ...heroConfig,
   heading: 'Emergency Veterinary Care',

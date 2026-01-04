@@ -1,6 +1,4 @@
-/**
- * Configuration for Appointment CTA Component
- */
+/* Configuration for Appointment CTA Component */
 
 export interface CTABenefit {
   text: string;
@@ -65,16 +63,12 @@ export const appointmentCTAConfig: AppointmentCTAConfig = {
   }
 };
 
-/**
- * Helper to format phone number for tel: links
- */
+/* Helper to format phone number for tel: links */
 export function getPhoneHref(phone: string): string {
   return `tel:${phone}`;
 }
 
-/**
- * Helper to create analytics attributes
- */
+/* Helper to create analytics attributes */
 export function getAnalyticsAttrs(id: string): Record<string, string> {
   return {
     'data-analytics': id,
