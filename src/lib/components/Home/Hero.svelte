@@ -15,7 +15,7 @@
         <p>Compassionate care for all creatures great and small</p>
         
         <div class="hero-buttons">
-          <a href=#PreRegistration class="btn btn-primary"> Pre-Register Now</a>
+          <a href=#PreRegistration class="btn btn-primary"> Register Now</a>
           <a href=#Services class="btn btn-secondary">Our Services</a>
         </div>
       </div>
