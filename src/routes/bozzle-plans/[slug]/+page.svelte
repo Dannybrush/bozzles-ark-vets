@@ -6,8 +6,9 @@
 
 
     // ============  IMPORTS for Offer Components ============
-  import OfferBanner from '$lib/components/BozzlePlans/OfferBanner.svelte';
-  import OfferBadge from '$lib/components/BozzlePlans/OfferBadge.svelte';
+import OfferBadge from '$lib/components/BozzlePlans/OfferBadge.svelte';
+import OfferBanner from '$lib/components/BozzlePlans/OfferBanner.svelte';
+
   // =========================================================
 
  
