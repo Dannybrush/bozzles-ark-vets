@@ -60,9 +60,9 @@ export const PriceListData: PriceListData = {
         icon: "⚕️",
         items: [
             { name: "Dog Castrate (Small)", price: "£200", duration: "", note: "Under 10kg" },
-            { name: "Dog Castrate (Medium)", price: "£225", duration: "", note: "10-20kg" },
-            { name: "Dog Castrate (Large)", price: "£250", duration: "", note: "20-40kg" },
-            { name: "Dog Castrate (X-Large)", price: "£275", duration: "", note: "40kg+" },
+            { name: "Dog Castrate (Medium)", price: "£220", duration: "", note: "10-20kg" },
+            { name: "Dog Castrate (Large)", price: "£240", duration: "", note: "20-40kg" },
+            { name: "Dog Castrate (X-Large)", price: "£260", duration: "", note: "40kg+" },
             { name: "Dog Spay (Small)", price: "£260", duration: "", note: "Under 10kg" },
             { name: "Dog Spay (Medium)", price: "£300", duration: "", note: "10-20kg" },
             { name: "Dog Spay (Large)", price: "£340", duration: "", note: "20-40kg" },
